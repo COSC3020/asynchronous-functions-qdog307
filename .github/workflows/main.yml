@@ -21,14 +21,24 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Create package.json
+        run: |
+          echo '{
+            "name": "asynchronous-functions",
+            "version": "1.0.0",
+            "description": "Testing asynchronous functions",
+            "main": "code.js",
+            "scripts": {
+              "test": "node code.test.js"
+            },
+            "dependencies": {},
+            "devDependencies": {
+              "jsverify": "^0.8.4"
+            }
+          }' > package.json
+
       - name: Install dependencies
         run: npm install
 
       - name: Run async function tests
-        run: |
-          node async_function_tests.js
-
-      - name: Output test results
-        if: failure()
-        run: |
-          echo "Tests failed. Check the logs above for details."
+        run: npm test

@@ -20,3 +20,11 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+The worst case $\Theta$ is  $\Theta(n)$, this is because the asyn operation processes on element at a time. 
+
+## Sources 
+
+For this I looked at the provided link, and also this website to understand it a little more https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function The test code was generated using chatGPT. 
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."

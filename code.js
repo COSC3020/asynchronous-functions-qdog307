@@ -10,3 +10,5 @@ async function countMatches(array, key) {
 
     return count; // return the total count of matches
 }
+
+module.exports =  countMatches ;

@@ -1,3 +1,6 @@
+
+const  countMatches  = require('./code');
+
 (async () => {
     const assert = require('assert');
 

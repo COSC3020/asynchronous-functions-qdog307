@@ -21,6 +21,8 @@ this.
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
 
+The worst case $\Theta$ is  $\Theta(n)$, this is because the asyn operation processes on element at a time. 
+
 ## Sources 
 
 For this I looked at the provided link, and also this website to understand it a little more https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function The test code was generated using chatGPT. 
